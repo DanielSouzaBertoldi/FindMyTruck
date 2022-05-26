@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FindMyTruck</string>
+    <string name="type_email">Insira seu e-mail</string>
+    <string name="type_password">Digite sua senha</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Cadastre-se</string>
+    <string name="home_title">Localização do Caminhão</string>
+    <string name="truck_updated_at">Atualizado às 15:33</string>
+    <string name="update">Atualizar</string>
+    <string name="average_speed">Velocidade média</string>
+
+    <string name="settings">Configurações</string>
+    <string name="home">Tela Principal</string>
+    <string name="profile">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
