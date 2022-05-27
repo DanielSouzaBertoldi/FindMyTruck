@@ -3,18 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!--Trocar para enable true-->
     <item
-        android:id="@+id/settings"
-        android:enabled="false"
+        android:id="@+id/statusFragment"
+        android:enabled="true"
         android:icon="@drawable/settings"
-        android:title="@string/settings" />
+        android:title="@string/Status"/>
     <item
         android:id="@+id/bottomHomeFragment"
         android:enabled="true"
         android:icon="@drawable/home"
         android:title="@string/home" />
     <item
-        android:id="@+id/bottomProfileFragment"
-        android:contentDescription="@string/profile"
+        android:id="@+id/ProfileFragment"
         android:enabled="true"
         android:icon="@drawable/account_circle"
         android:title="@string/profile" />

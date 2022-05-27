@@ -13,10 +13,27 @@
         <action
             android:id="@+id/action_mainFragment_to_homeActivity"
             app:destination="@id/homeActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
     </fragment>
-    <!-- Adicionar fragment de cadastro -->
+
+
+
+       <!-- Adicionar fragment de cadastro -->
+
     <activity
         android:id="@+id/homeActivity"
         android:name="com.example.findmytruck.home.HomeActivity"
         android:label="HomeActivity" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.findmytruck.Signup.SignupFragment"
+        android:label="SignupFragment"
+        tools:layout="@layout/signup_fragment">
+
+        <action
+            android:id="@+id/action_signupFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>

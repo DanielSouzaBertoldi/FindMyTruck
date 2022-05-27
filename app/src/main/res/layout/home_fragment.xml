@@ -26,8 +26,10 @@
                     android:id="@+id/app_logo"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:layout_marginTop="24dp"
                     android:src="@drawable/truck_logo_finished"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -41,7 +43,7 @@
 
                 <TextView
                     android:id="@+id/truck_finder_title"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/margin_3"
                     android:layout_marginTop="@dimen/margin_3"
@@ -79,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_3"
                     android:text="@string/truck_updated_at"
-                    android:textColor="@color/red"
+                    android:textColor="@color/green"
                     android:textSize="@dimen/text_2"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -91,7 +93,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/margin_2"
-                    android:backgroundTint="@color/red"
+                    android:backgroundTint="@color/green"
                     android:text="@string/update"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/bottom_nav_graph"
     app:startDestination="@id/bottomHomeFragment">
 
     <fragment
         android:id="@+id/bottomHomeFragment"
         android:name="com.example.findmytruck.home.HomeFragment"
-        android:label="HomeFragment" />
+        android:label="HomeFragment"
+        tools:layout="@layout/home_fragment"/>
     <fragment
-        android:id="@+id/bottomProfileFragment"
+        android:id="@+id/statusFragment"
+        android:name="com.example.findmytruck.profile.StatusFragment"
+        android:label="StatusFragment"
+        tools:layout="@layout/status_fragment"/>
+    <fragment
+        android:id="@+id/ProfileFragment"
         android:name="com.example.findmytruck.profile.ProfileFragment"
-        android:label="ProfileFragment" />
+        android:label="ProfileFragment"
+        tools:layout="@layout/profile_fragment"/>
+
+
     <!--Adicionar fragment de status com mesmo ID definido no bottom_nav_menu-->
 </navigation>

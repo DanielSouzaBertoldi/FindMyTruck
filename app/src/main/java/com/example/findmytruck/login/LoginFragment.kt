@@ -25,7 +25,7 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.signUpButton.setOnClickListener {
-            // Adicionar o findNavController abaixo usando a action que vai para a tela de cadastro
+            findNavController().navigate(R.id.action_mainFragment_to_signupFragment)
         }
         binding.loginButton.setOnClickListener {
             findNavController().navigate(R.id.action_mainFragment_to_homeActivity)

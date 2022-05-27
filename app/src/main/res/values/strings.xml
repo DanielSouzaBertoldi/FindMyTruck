@@ -8,10 +8,20 @@
     <string name="truck_updated_at">Atualizado às 15:33</string>
     <string name="update">Atualizar</string>
     <string name="average_speed">Velocidade média</string>
-
-    <string name="settings">Configurações</string>
+    <string name="Emailconfirm">Confirme o seu e-mail</string>
     <string name="home">Tela Principal</string>
     <string name="profile">Perfil</string>
+    <string name="titlesignup">Cadastro</string>
+    <string name="speed">72km/H</string>
+    <string name="GasTankPercentage">60%</string>
+    <string name="Status">Status</string>
+    <string name="nicespeed">Ideal!</string>
+    <string name="GasTankStatus">Status do Tanque</string>
+    <string name="Profilename">Marcelo Vinícius Simões do Prado</string>
+    <string name="Profilemail">Marcelov.praado@gmail.com</string>
+    <string name="TruckModel">Scania Linha S</string>
+    <string name="ProfileTitle2">Adicione ou troque sua foto de Perfil</string>
+    <string name="UpdatePhoto">Nova Foto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
